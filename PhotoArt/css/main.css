@@ -97,11 +97,12 @@ textarea {
 	}
 
 	.hero-unit{
-		margin-top: 90px;
+		margin-top: 60px;
 	}
 	.container{
 		
-		background-color:#999;
+		background-color:#FFF;
+		margin-top: 100px;
 		height:auto;
 		width:960px;
 	}
@@ -109,7 +110,8 @@ textarea {
     	.picture-capsule{
     		width:713px;
     		height:480px;
-    		background-color:#F90;	
+    		background-color:#CCC;
+			border: solid 1px #999999;	
     		padding-bottom:10px;
     		display:block;
     		
@@ -124,7 +126,7 @@ textarea {
     		
     		.capsule-body{
     			height:370px;
-    			width: 450px;	
+    			width: 710;	
     			float:left;
     		}
     			
@@ -149,9 +151,10 @@ textarea {
 	.picture-capsule-comments{
 		width:237px;
         height:490px;
-        background-color:#F90;  
-        margin-bottom: 20px;
-        margin-top: -10px; 
+        background-color:#CCC;
+		border: solid 1px #999999;	 
+        margin-bottom: 10px;
+ 
         
 	}
 		
@@ -171,6 +174,24 @@ textarea {
             padding-left: 10px;
             padding-right: 10px;
         }
+		
+	.about_title{
+		color:#F90;
+		text-align:center;
+	}
+	
+	.signup_content{
+		background:#DDD;
+ 		border-radius: 15px;			
+		padding: 25px;
+	}
+	
+	.signup_botton_content{
+		background:#AAA;
+ 		border-radius: 15px;			
+		padding: 25px;
+		height: 300px;
+	}
 
 	.footer{
 		border-top: 1px #999999 solid;
