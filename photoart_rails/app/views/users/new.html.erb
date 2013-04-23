@@ -1,0 +1,27 @@
+<h1>New User</h1>
+
+<%= form_for @user do |form| %>
+
+<label>
+	Name:
+	<p><%= form.text_field :name %></p>
+</label>
+
+<label>
+	Email:
+	<p><%= form.text_field :email %></p>
+</label>
+
+<label>
+	Location:
+	<p><%= form.text_field :location %></p>
+</label>
+
+<label>
+	About:
+	<p><%= form.text_field :about %></p>
+</label>
+
+<p><%= form.submit %></p>
+
+<% end %>

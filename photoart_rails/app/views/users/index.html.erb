@@ -1,0 +1,12 @@
+<h1>Photoart</h1>
+
+<% @users.each do |user| %>
+	<h2><%= link_to"#{user.name}", user_url(user) %></h2>
+	<p><%= user.about %></p>
+	<p><%= link_to "Edit", edit_user_url(user) %> - <%= link_to "Delete", user_url(user), :method => :destroy %></p>
+
+<% end %>
+
+<hr />
+
+<%= link_to "Add New User", new_user_url %>
