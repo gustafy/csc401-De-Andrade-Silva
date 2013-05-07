@@ -1,0 +1,116 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.menu-top{
+		margin-bottom:20px;
+	}
+
+	.hero-unit{
+		margin-top: 60px;
+	}
+	.container{
+		
+		background-color:#FFF;
+		margin-top: 100px;
+		height:auto;
+		width:960px;
+	}
+	
+    	.picture-capsule{
+    		width:960px;
+    		height:600px;
+    		background-color:#CCC;
+			border: solid 1px #999999;	
+    		padding-bottom:10px;
+    		display:block;
+    		box-shadow: 1px 3px 5px #888888;
+    	}
+    	
+    		.capsule-top{
+    			width:713px;
+    			height:50px;
+    			float:left;
+    			background-color:#CCC;
+    		}
+    		
+    		.capsule-body{
+    			height: 300px;
+    			width: 300;	
+    			float: none;
+    		}
+    			
+    			.avatar{
+    				display:block;
+    				height:64px;
+    			}
+    			.nickname{
+    				font-family:Arial, Helvetica, sans-serif;
+    				color:#000;
+                    margin-top: 15px;
+                    float: left;
+    			}
+    			
+    			
+    		.capsule-bottom{
+    			height:20px;
+    			width: 470px;
+    			float:left;	
+    		}
+	
+	.picture-capsule-comments{
+		width:237px;
+        height:490px;
+        background-color:#CCC;
+		border: solid 1px #999999;	 
+        margin-bottom: 10px;
+ 
+        
+	}
+		
+		.comments-header{
+            height:50px;
+            background-color:#CCC;
+		}
+
+        .comments-body{
+            height:350px;
+            padding:10px;
+
+        }
+
+        .comments-submit{
+            height:20px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+		
+	.about_title{
+		color:#F90;
+		text-align:center;
+	}
+	
+	.signup_content{
+		background:#DDD;
+ 		border-radius: 15px;			
+		padding: 25px;
+	}
+	
+	.signup_botton_content{
+		background:#AAA;
+ 		border-radius: 15px;			
+		padding: 25px;
+		height: 300px;
+	}
+
+	.footer{
+		border-top: 1px #999999 solid;
+		height:150px;
+		clear:both;
+	}
+
+.li{
+    
+    backgroung: #aaa;
+}
