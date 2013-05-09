@@ -1,8 +1,13 @@
 #Project Name:
-PhotArt(Temp Name)
+PhotArt
 
 #Description:
-Photography public portifolio - Get peoples photos and put them together to make 
-another piece of art.
+Photography public portifolio - 
+
+The objective of this project is to display the art (i.e pictures) of amateur or professial photographers.
 
 #Features:
+
+- multiple pictures per user
+- individual galery 
+- displays all the user's pictures
